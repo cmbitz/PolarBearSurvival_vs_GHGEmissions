@@ -115,7 +115,7 @@ for n=N
 end
 
 % comment out so as not overwrite data provided, remove it to save output if you wish
- eval(['save matfiles/Fit_CumCO2_vs_IFD_',ErrorVersion,'.mat OBSIFD OBSyrs CumCO2 bi bs']);
+eval(['save matfiles/Fit_CumCO2_vs_IFD_',ErrorVersion,'.mat OBSIFD OBSyrs CumCO2 bi bs']);
 
 
 % The rest was just a sanity check
@@ -125,14 +125,6 @@ n=3;
 
 display('bootstrap slope')
 display(quantile(bs(n,:),[0.025, 0.5, 0.975]))
-
-if ErrorVersion=='v1'
-display('slope')
-display(quantile(bs(n,:),[0.025, 0.5, 0.975]))
-else
-display('slope*(1-syserr)')
-display(quantile(bs(n,:).*(1-syserr(n,:)),[0.025, 0.5, 0.975]))
-end
 
 display('Matlab script best estimate scenario')
 eval(['range=coefCI(mdl_',num2str(n),',.05);']);
