@@ -1,4 +1,4 @@
-# FastingDays_vs_CumCO2
+# Polar Bear Survival vs GHG Emissions 
 Code and data for analysis published in `Unlock the Endangered Species Act to address GHG emissions'
 by Amstrup and Bitz (2023).                                                                               
                                                                                                        
