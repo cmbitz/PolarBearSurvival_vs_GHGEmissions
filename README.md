@@ -1,6 +1,8 @@
 # Polar Bear Survival vs GHG Emissions 
 Code and data for analysis published in `Unlock the Endangered Species Act to address GHG emissions'
 by Amstrup and Bitz (2023).                                                                               
+[![DOI](https://zenodo.org/badge/677885948.svg)](https://zenodo.org/badge/latestdoi/677885948)
+
                                                                                                        
 The order to run these scriptps is as follows:                                                         
                                                                                                        
