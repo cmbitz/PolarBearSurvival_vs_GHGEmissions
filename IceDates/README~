@@ -1,0 +1,9 @@
+The main purpose of code in this directory is to
+
+1) process the sea ice concentration data daily from NASA Team to first compute sea ice extent in the subpopulation domain regions  (extenttotals_nt.m)
+
+2) and then process the extents to compute first and last days of the ice-free seasons,
+and IFD for each subpopulation, which is the number of ice-free days each year
+(compute_firstday_lastday_nt.m)
+
+
