@@ -2,7 +2,7 @@
 % all data are processed elsewhere
 
 clear;
-individuals=0; % set to one to save each panel separately
+individuals=1; % set to one to save each panel separately
 
 load matfiles/IFDvsCumCO2_Fit_SamplingUnc.mat MeanInterval
 NarrowInterval =  MeanInterval; 
